@@ -35,3 +35,4 @@ Route::middleware(['auth', 'role:admin'])->group(function () {
     //Filament::registerPage(AdminReport::class);
 });
 Route::get('/', Login::class)->name('login');
+// try
